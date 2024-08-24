@@ -1,6 +1,6 @@
 import { CheckCircle, Clock, DollarSign, ShoppingBag } from "lucide-react";
 import { motion } from "framer-motion";
-import { DailyOrders, Header, OrderDistribution, StatCard } from "../components";
+import { DailyOrders, Header, OrderDistribution, OrdersTable, StatCard } from "../components";
 
 const orderStats = {
   totalOrders: "1,234",
@@ -52,6 +52,7 @@ export const OrdersPage = () => {
           <OrderDistribution />
         </div>
 
+        <OrdersTable />
       </main>
     </div>
   );
