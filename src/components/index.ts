@@ -1,3 +1,4 @@
+export * from './analytics/AIPoweredInsights';
 export * from './analytics/ChannelPerformance';
 export * from './analytics/CustomerSegmentation';
 export * from './analytics/OverviewCards ';

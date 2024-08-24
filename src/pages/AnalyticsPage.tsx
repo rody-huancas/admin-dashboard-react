@@ -1,4 +1,4 @@
-import { ChannelPerformance, CustomerSegmentation, Header, OverviewCards, ProductPerformance, RevenueChart, UserRetention } from "../components";
+import { AIPoweredInsights, ChannelPerformance, CustomerSegmentation, Header, OverviewCards, ProductPerformance, RevenueChart, UserRetention } from "../components";
 
 const AnalyticsPage = () => {
   return (
@@ -15,6 +15,8 @@ const AnalyticsPage = () => {
           <UserRetention />
           <CustomerSegmentation />
         </div>
+
+        <AIPoweredInsights />
       </main>
     </div>
   );
