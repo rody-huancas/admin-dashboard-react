@@ -1,7 +1,7 @@
 import { Route, Routes } from "react-router-dom";
 
 import { Sidebar } from "./components";
-import { OverviewPage, ProductsPage, UsersPage, SalesPage } from "./pages";
+import { OverviewPage, ProductsPage, UsersPage, SalesPage, OrdersPage } from "./pages";
 
 const App = () => {
   return (
@@ -19,6 +19,7 @@ const App = () => {
         <Route path="/products" element={<ProductsPage />} />
         <Route path="/users" element={<UsersPage />} />
         <Route path="/sales" element={<SalesPage />} />
+        <Route path="/orders" element={<OrdersPage />} />
       </Routes>
     </div>
   );
