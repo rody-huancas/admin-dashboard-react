@@ -1,5 +1,9 @@
+export * from './analytics/ChannelPerformance';
+export * from './analytics/CustomerSegmentation';
 export * from './analytics/OverviewCards ';
+export * from './analytics/ProductPerformance';
 export * from './analytics/RevenueChart';
+export * from './analytics/UserRetention';
 export * from './common/Header';
 export * from './common/StatCard';
 export * from './orders/DailyOrders';
