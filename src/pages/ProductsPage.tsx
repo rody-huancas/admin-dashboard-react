@@ -1,7 +1,7 @@
 import { motion } from 'framer-motion';
 import { AlertTriangle, DollarSign, Package, TrendingUp } from "lucide-react";
 
-import { CategoryDistributionChart, Header, ProductTable, SalesTrendChart, StatCard } from "../components";
+import { CategoryDistributionChart, Header, ProductsTable, SalesTrendChart, StatCard } from "../components";
 
 export const ProductsPage = () => {
   return (
@@ -21,7 +21,7 @@ export const ProductsPage = () => {
           <StatCard name="Total Revenue" icon={DollarSign} value="$543,211" color="#EF4444" />
         </motion.div>
 
-        <ProductTable />
+        <ProductsTable />
 
         {/* CHARTS */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-8">
