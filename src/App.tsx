@@ -2,6 +2,7 @@ import { Route, Routes } from "react-router-dom";
 
 import { Sidebar } from "./components";
 import { OverviewPage, ProductsPage, UsersPage, SalesPage, OrdersPage } from "./pages";
+import AnalyticsPage from "./pages/AnalyticsPage";
 
 const App = () => {
   return (
@@ -20,6 +21,7 @@ const App = () => {
         <Route path="/users" element={<UsersPage />} />
         <Route path="/sales" element={<SalesPage />} />
         <Route path="/orders" element={<OrdersPage />} />
+        <Route path="/analytics" element={<AnalyticsPage />} />
       </Routes>
     </div>
   );
