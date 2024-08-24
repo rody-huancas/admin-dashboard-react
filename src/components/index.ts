@@ -6,3 +6,7 @@ export * from './overview/SalesOverviewChart';
 export * from './products/ProductsTable';
 export * from './products/SalesTrendChart';
 export * from './Sidebar';
+export * from './users/UserActivityHeatmap';
+export * from './users/UserDemographicsChart';
+export * from './users/UserGrowthChart';
+export * from './users/UsersTable';

@@ -1,6 +1,7 @@
+import { useState } from "react";
+
 import { motion } from "framer-motion";
 import { Edit, Search, Trash2 } from "lucide-react";
-import { useState } from "react";
 
 const PRODUCT_DATA = [
   { id: 1, name: "Wireless Earbuds", category: "Electronics", price: 59.99  , stock: 143, sales: 1200 },
