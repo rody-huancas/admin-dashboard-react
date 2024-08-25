@@ -18,6 +18,8 @@ export * from './products/SalesTrendChart';
 export * from './sales/DailySalesTrend';
 export * from './sales/SalesByCategoryChart';
 export * from './sales/SalesChart';
+export * from './settings/Profile';
+export * from './settings/SettingSection';
 export * from './Sidebar';
 export * from './users/UserActivityHeatmap';
 export * from './users/UserDemographicsChart';
